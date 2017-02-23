@@ -1,0 +1,121 @@
+body {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  header {
+    background-color: #B8D8D8;
+    height: 30%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-pic {
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 40px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+  .graphs {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .set-goals {
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 200px;
+    font-size: 28px;
+    text-align: center;
+    background-color: #FE5F55;
+  }
+
+  .plus {
+    height: 50%;
+  }
+
+  .welcome {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    margin: auto 0;
+    font-size: 24px;
+  }
+
+  .graph-container {
+    height: 30%;
+    width: 100%;
+    background-color: #7A9E9F;
+  }
+
+  .calendar-container {
+    height: 40%;
+    width: 100%;
+    background-color: #4F6367;
+  }
+
+
+
+  @media screen and (min-width: 500px) {
+    header {
+      background-color: #B8D8D8;
+      display: block;
+      height: 100%;
+      width: 25%;
+      float: right;
+    }
+    .calendar-container {
+      height: 50%;
+      width: 50%;
+      background-color: #4F6367;
+      float: left;
+    }
+
+    .calendar {
+      height: 100%;
+      width: 100%;
+    }
+
+    .graphs {
+      visibility: hidden;
+    }
+    .graph-container {
+      height: 50%;
+      width: 75%;
+      float: left;
+      background-color: #7A9E9F;
+      background-image: url('./assets/graphs-web.png');
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center;
+    }
+
+    .set-goals {
+      position: absolute;
+      margin-right: 1200px;
+      height: 50%;
+      bottom: 0;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 0 auto;
+      margin-top: 100px;
+    }
+
+    .welcome {
+      display: block;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
+  }
