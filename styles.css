@@ -14,29 +14,33 @@ body {
   }
 
   .profile-pic {
-    height: 300px;
-    width: 300px;
+    height: 125px;
+    width: 125px;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 10px;
     background-color: #D8D8D8;
     border-radius: 50%;
     border: 1px solid black;
-    display: inline-block;
+    position: absolute;
   }
 
   .graphs {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .set-goals {
-    height: 200px;
-    margin-top: 40px;
-    margin-right: 40px;
-    width: 200px;
-    font-size: 28px;
+    outline: none;
+    border: none;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 18px;
     text-align: center;
     background-color: #FE5F55;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .plus {
@@ -44,12 +48,12 @@ body {
   }
 
   .welcome {
-    display: inline-block;
     height: 200px;
     width: 250px;
     text-align: center;
-    margin: auto 0;
-    font-size: 24px;
+    margin-left: 25%;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   .graph-container {
@@ -101,21 +105,28 @@ body {
     }
 
     .set-goals {
-      position: absolute;
-      margin-right: 1200px;
-      height: 50%;
+      height: 49%;
+      width: 25%;
+      top: auto;
       bottom: 0;
+      margin-right: 24%;
     }
 
     .profile-pic {
+      width: 200px;
+      height: 200px;
       display: block;
       margin: 0 auto;
-      margin-top: 100px;
+      margin-top: 30px;
+      margin-left: 20px;
     }
 
     .welcome {
-      display: block;
-      margin: 0 auto;
-      margin-top: 60px;
+      position: absolute;
+      text-align: center;
+      font-size: 12px;
+      top: 40%;
+      left: 7px;
+      width: 100px;
     }
   }
